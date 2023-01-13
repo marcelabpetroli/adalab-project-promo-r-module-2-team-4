@@ -4,7 +4,6 @@ $cardFont: 'Montserrat', sans-serif;
 $mainFont: 'Open Sans', sans-serif;
 
 // // colors
-
 $light-khaki: #f9f4dc;
 $black-20: rgba(0, 0, 0, 0.2);
 $tomato: #e95626;
@@ -31,8 +30,8 @@ $header-bkg: cadetblue;
 $border-logo: #eabe3f;
 $reset-bkg: #3c3c44;
 $color-bkg-btn: rgba(0, 0, 0, 0.2);
-// // sizes rem
 
+// // sizes rem
 $defaultFontSize: 16;
 @function rem($pixels) {
   @return ($pixels / $defaultFontSize * 1rem);

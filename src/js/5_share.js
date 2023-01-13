@@ -1,22 +1,20 @@
-"use strict";
+'use strict';
 function enableSectionShare() {
-  sectionCreatedCard.classList.remove("hidden");
+  sectionCreatedCard.classList.remove('hidden');
 }
 
 function disableSectionShare() {
-  sectionCreatedCard.classList.add("hidden");
-  //botón reset hará una llamada  a esto
+  sectionCreatedCard.classList.add('hidden');
 }
 
 function disableCreateBtn() {
   createButton.disabled = true;
-  createButton.classList.add("create-btn-disabled");
+  createButton.classList.add('create-btn-disabled');
 }
 
 function enableCreateBtn() {
   createButton.disabled = false;
-  createButton.classList.remove("create-btn-disabled");
-  //botón reset hará una llamada  a esto
+  createButton.classList.remove('create-btn-disabled');
 }
 
 function handleCreateButtonClick(event) {
@@ -26,4 +24,4 @@ function handleCreateButtonClick(event) {
   sendRequest();
 }
 
-createButton.addEventListener("click", handleCreateButtonClick);
+createButton.addEventListener('click', handleCreateButtonClick);
