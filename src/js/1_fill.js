@@ -16,12 +16,11 @@ function updatePreview() {
   data.phone = phoneInput.value;
   data.email = emailInput.value;
   data.linkedin = linkedinInput.value;
-  data.github = linkedinInput.value;
+  data.github = githubInput.value;
   if (data.name === '') {
     previewName.innerHTML = 'Nombre Apellidos';
   } else {
     previewName.innerHTML = data.name;
-    console.log(data.name);
   }
   if (data.job === '') {
     previewJob.innerHTML = 'Front-end developer';
@@ -50,15 +49,14 @@ function updatePreview() {
   }
 }
 
-form.addEventListener('input', (event) => {
-  const elementName = event.target.name;
-
-  const value = event.target.value;
+form.addEventListener('input', (e) => {
+  const elementName = e.target.name;
+  const value = e.target.value;
 
   if (elementName === [elementName]) {
     data[elementName] = value;
   }
 
-  updatePreview();
+  updatePreview(data);
   saveInLocalStorage(data);
 });

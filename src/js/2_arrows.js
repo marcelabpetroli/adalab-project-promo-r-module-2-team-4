@@ -11,18 +11,15 @@ function renderSection(formContainer1, formContainer2, arrow1, arrow2, container
   container.style.height = container.scrollHeight + 'px';
 }
 
-function handleClickDesignArrow(ev) {
-  ev.preventDefault();
+function handleClickDesignArrow() {
   renderSection(formContainerFill, formContainerShare, arrowDownFill, arrowDownShare, formContainerDesign, arrowDownDesign);
 }
 
-function handleClickFillArrow(ev) {
-  ev.preventDefault();
+function handleClickFillArrow() {
   renderSection(formContainerDesign, formContainerShare, arrowDownDesign, arrowDownShare, formContainerFill, arrowDownFill);
 }
 
-function handleClickShareArrow(ev) {
-  ev.preventDefault();
+function handleClickShareArrow() {
   renderSection(formContainerDesign, formContainerFill, arrowDownFill, arrowDownDesign, formContainerShare, arrowDownShare);
 }
 
