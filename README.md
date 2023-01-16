@@ -20,6 +20,6 @@ Our group chose to base the web on the Harry Potter world. Alohomora is a spell 
 
 # DEMO
 
-![demo](/assets/images/alohomora.mov.gif)
+![demo](/src/images/alohomora.mov.gif)
 
 ## Cheers!
