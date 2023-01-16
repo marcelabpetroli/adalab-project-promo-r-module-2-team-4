@@ -40,7 +40,7 @@ function updatePreview() {
   if (data.linkedin === '') {
     previewLinkedin.href = '';
   } else {
-    previewLinkedin.href = `${data.linkedin}`;
+    previewLinkedin.href = `https://www.linkedin.com/in/${data.linkedin}`;
   }
   if (data.github === '') {
     previewGithub.href = '';
@@ -57,6 +57,6 @@ form.addEventListener('input', (e) => {
     data[elementName] = value;
   }
 
-  updatePreview(data);
+  updatePreview();
   saveInLocalStorage(data);
 });
