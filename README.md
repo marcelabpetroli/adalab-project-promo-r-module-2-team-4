@@ -1,68 +1,25 @@
 # Alohomora Cards!
 
-Hello there! the Head of Administration at Hogwarts has given us the task to create new access cards, so that the school can adapt to modern times. In this repository you'll find how to create your own Alohomora card that will grant you access throughout the campus.
-
-By clicking on the Github Pages url (https://beta.adalab.es/project-promo-r-module-2-team-4/) attached above in the description you can enter into the magic world of Hogwarts once again. 
+This is a group project created for the JavaScript Module of **Adalab's Coding Bootcamp**.
 
 ## The Project
 
-This is a group project created for the second module of **Adalab's Coding Bootcamp** that centers around learning Javascript. 
+The goal was to develop an interactive web page using JavaScript in which users could create fun business cards by filling up a form and uploading a photo. The card displays the photo, name, job and icons to contact. There are icons for phone, email, linkedin and github, each one when clicked opens a new window with the selected way to contact.
 
-It was developed using: 
+Our group chose to base the web on the Harry Potter world. Alohomora is a spell used to open and unlock doors, which for us represents the actitud we have when it comes to life, to always overcome whatever is trying to stop you from moving forward. Alohomora! ⚡️✨
 
-* **HTML**
-* **Sass**
-* **Javascript**
+## Our goals were:
 
-## Getting Started
+- Learn basic programming concepts (variables, data structures, conditionals, functions, etc.);
+- Understand how to manipulate the DOM of a page and respond to user events;
+- Handle complex data structures, with arrays and objects;
+- Make requests to the server and store data locally;
+- Implement Scrum as a reference framework for product development, always basing ourselves on the values ​​of Agile as key points of teamwork and continuous improvement;
+- Improve communication between team members;
+- Improve our communication skills in public by presenting the project in the final session;
 
-* This project was created using **Adalab Starter Kit**, so to start working on this project you'll need to run the command: 
-```
-npm install
-```
- that will create a node_modules folder, and allow you to work with _node.js_ and _gulp_. 
+# DEMO
 
-* After installing, use the command:
-```
-npm start
-``` 
-to see the changes being made in real time, without the need to use Live Server or refreshing the website. 
+![demo](/assets/images/alohomora.mov.gif)
 
-## What can you do?
-
-* You can **create a beautiful contact card** that contains: Name, Job, Profile Image, Email, Phone and both Github and LinkedIn handles. You'll be able to see how it's gonna look in real time. 
-
-<img width="433" alt="card-example" src="https://user-images.githubusercontent.com/111571376/202519478-aff836f7-f1e7-4d46-b7bc-a2fd61045d01.png">
-
-
-* **Choose a color palette** that best suits you personality.
-
-<img width="316" alt="twitter example" src="https://user-images.githubusercontent.com/111571376/202519567-ff29ae61-85bd-47cb-93d4-00b05784ac38.png">
-
-
-* **Reset your input** by clicking on the reset button.
-
-* Fill in you card, and **share it on twitter**. Our page will automatically generate your card and embed it so that you can tweet about it. 
-
-<img width="313" alt="share-twitter" src="https://user-images.githubusercontent.com/111571376/202519683-c433808b-310e-42f1-a974-3d16f0b9877b.png">
-
-
-## Thanks!
-
-**Thank you for your time!** We are coding students and this is our first project using Javascript. Any feedback will be highly appreciated. 
-
-Also, we want to thank our wonderful teachers: Dayana, Ivan and Yanelis for providing the support needed to develop this website and always being patient and kind. 
-
-**Hope you enjoyed it!** 
-
-
-
-
-
-
-
-
-
-
-
-
+## Cheers!
